@@ -6,13 +6,15 @@ import anime from "animejs";
 export default function ContactUs() {
   const animateSocials = useRef(null);
 
+  //  | Beaver General Construction LLC | |  |  |
+
   const services = [
-    { name: "Sewer Repair" },
-    { name: "Trenchless Sewer Replacement" },
-    { name: "Sewer Pipe Lining" },
-    { name: "Drain Cleaning" },
-    { name: "Hydro Jetting" },
-    { name: "Camara Inspection" },
+    { name: "Home Remodeling" },
+    { name: "Masonry" },
+    { name: "Concrete" },
+    { name: "Kitchen Remodeling" },
+    { name: "Bathrooms Remodeling" },
+    // { name: "Camara Inspection" },
   ];
 
   const socials = [
@@ -259,7 +261,7 @@ export default function ContactUs() {
                   fill="#FFFFFF"
                 />
               </svg>
-              <p>+1 3237677069</p>
+              <p>+1 6109611676</p>
             </div>
             <div className="flex items-center gap-4 hover:text-[#297cbf] hover:cursor-pointer">
               <svg

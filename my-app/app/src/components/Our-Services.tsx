@@ -6,14 +6,16 @@ import ManStanding from "../../../public/man-standing.png";
 import anime from "animejs";
 
 export default function OurServices() {
-  const [heading, setHeading] = useState("Sewer Repair");
+  const [heading, setHeading] = useState("Home Remodeling");
   const animateHeading = useRef(null);
   const text = useRef(null);
   const text2 = useRef(null);
 
+  //  | Beaver General Construction LLC | |  |  |
+
   const items = [
     {
-      item: "Sewer Repair",
+      item: "Home Remodeling",
       content:
         "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -25,7 +27,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Trenchless Sewer Replacement",
+      item: "Masonry",
       content:
         "Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -36,7 +38,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Sewer Pipe Lining",
+      item: "Concrete",
       content:
         "Aliquam eleifend massa id aliquet tincidunt. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. ",
       lists: [
@@ -48,7 +50,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Drain Cleaning",
+      item: "Kitchen Remodeling",
       content:
         "Libero nec pulvinar porta, nisi urna faucibus quam, Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -59,7 +61,7 @@ export default function OurServices() {
       ],
     },
     {
-      item: "Hydro Jetting",
+      item: "Bathrooms Remodeling",
       content:
         "Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Aliquam eleifend massa id aliquet tincidunt. ",
       lists: [
@@ -70,17 +72,17 @@ export default function OurServices() {
         { pos: "Curabitur ornare ante at mi interdum iaculis" },
       ],
     },
-    {
-      item: "Camara Inspection",
-      content:
-        "Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
-      lists: [
-        { pos: "Vestibulum blandit odio quis nulla laoreet" },
-        { pos: "Curabitur ornare ante at mi interdum iaculis" },
-        { pos: "Nunc interdum velit ut magna fringilla" },
-        { pos: "Sed vitae scelerisque lorem" },
-      ],
-    },
+    // {
+    //   item: "Camara Inspection",
+    //   content:
+    //     "Integer ut magna laoreet, facilisis turpis vitae, tempor ligula. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean id sem non libero facilisis sagittis eget ac arcu. Donec porttitor, libero nec pulvinar porta, nisi urna faucibus quam, vel semper metus sapien et leo. Aliquam eleifend massa id aliquet tincidunt. ",
+    //   lists: [
+    //     { pos: "Vestibulum blandit odio quis nulla laoreet" },
+    //     { pos: "Curabitur ornare ante at mi interdum iaculis" },
+    //     { pos: "Nunc interdum velit ut magna fringilla" },
+    //     { pos: "Sed vitae scelerisque lorem" },
+    //   ],
+    // },
   ];
 
   const handleClick = (item: any) => {
